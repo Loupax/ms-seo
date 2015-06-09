@@ -25,7 +25,7 @@ SEO =
     @clearAll() if clearBefore
 
     currentRouter = Router.current()
-    url = Router.url(Meteor.settings.public.baseUrl, currentRouter.params) if currentRouter
+    url = Router.url(currentRouter.route.getName(), currentRouter.params) if currentRouter
 
     #SEO.set({url: Router.url(currentRouter.route.name, currentRouter.params)})
 
