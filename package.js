@@ -1,7 +1,7 @@
 Package.describe({
-  name: "manuelschoebel:ms-seo",
+  name: "loupax:ms-seo",
   summary: "Easily config SEO for your routes",
-  git: "https://github.com/DerMambo/ms-seo.git",
+  git: "https://github.com/Loupax/ms-seo.git",
   version: "0.4.1"
 });
 
